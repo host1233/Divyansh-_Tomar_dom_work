@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remove </title>
+</head>
+<body>
+    
+    <h1>dom manipulation</h1>
+    <p id="bob">when you click button so remove this paragraph </p>
+    <button onclick="dlt()"> click  here to remove the upper paragraph</button>
+    <script>
+
+        function dlt(){
+            let key=document.getElementById("bob")
+            key.remove();
+        }
+    </script>
+</body>
+</html>

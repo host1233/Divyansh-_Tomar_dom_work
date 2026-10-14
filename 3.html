@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>bca imortants subject</h1>
+    <ul id="sub">
+        <li>c</li>
+        <li>java</li>
+        <li>database</li>
+    </ul>
+    <button onclick="add_subject()">Add subject</button>
+
+    <script>
+        function add_subject(){
+
+        
+        let element=document.createElement("li")
+        element.textContent="python"
+        document.getElementById("sub").appendChild(element)
+        }
+    </script>
+</body>
+</html>

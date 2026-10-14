@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toggle CSS class</title>
+
+<body>
+    <style>
+        .highlight{
+            color: white;
+            background-color: green;
+        }
+    </style>
+    </head>
+</body>
+<h1 id="heading">Hello students</h1>
+<button onclick="change_theme()">change theme click here</button>
+<script>
+    function change_theme(){
+        document.getElementById("heading").classList.toggle("highlight")
+    }
+</script>
+</html>

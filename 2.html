@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user input display</title>
+</head>
+<body>
+    <h1>user input display</h1>
+<button onclick="enter_name()">Enter your Name</button>
+<p id="output"></p>
+
+<script>
+    function enter_name(){
+        let name=prompt("plz enter your name")
+        document.getElementById("output").textContent="Welcome  " , + name ;
+        document.getElementById("output").style.color="red"
+         document.getElementById("output").style.backgroundColor="yellow"
+    }
+</script>
+    
+</body>
+</html>

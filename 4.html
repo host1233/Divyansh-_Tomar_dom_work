@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update</title>
+</head>
+<body>
+    <h1>update notice</h1>
+    <p id="notice">old notice exam tomorrow</p>
+    <button onclick="change_notice()">change notice</button>
+    <script>
+        function change_notice(){
+           let key= document.getElementById("notice")
+           key.innerHTML="<h2>new notice cancel exam tomorrow </h2>";
+        }
+    </script>
+</body>
+</html>
